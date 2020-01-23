@@ -1,0 +1,37 @@
+.homepage {
+  /* background-image: url("IMG_5410.JPG"); */
+  background-color: cornsilk;
+  height: 100vh; /* full size of the screen */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+/* .container1 {
+  display: flex;
+  flex-direction: row;
+} */
+
+.para {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-top: 20%;
+  margin-left: 33%;
+}
+#slogan {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-left: 33%;
+}
+#collaboration {
+  margin-left: 90%;
+  transform: rotate(-90deg);
+  color: black;
+  background-color: #ffff76;
+  border: solid 2px black;
+}
+#collaboration:hover {
+  background-color: #ffff62;
+  border: solid 4px black;
+}
