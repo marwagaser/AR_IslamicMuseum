@@ -1,10 +1,16 @@
 <div class="container">
   <img [src]="imgurl" />
   <ul class="header">
-    <li class="header_elements"><a href="">Home</a></li>
-    <li class="header_elements">The Idea</li>
+    <li class="header_elements" (click)="scroll('myHome')">
+      Home
+    </li>
+    <li class="header_elements" (click)="scroll('myIdea')">
+      The Idea
+    </li>
     <li class="header_elements">Photos</li>
     <li class="header_elements">Innovate</li>
     <li class="header_elements">Credits</li>
   </ul>
 </div>
+<app-home-page id="myHome"></app-home-page>
+<app-idea-page id="myIdea"></app-idea-page>

@@ -1,0 +1,88 @@
+.align {
+  height: 100vh;
+  background-color: cornsilk;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  border-top: 5px solid rgba(184, 166, 95, 1);
+}
+.container {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  /* border-top: 5px solid rgba(184, 166, 95, 1); */
+}
+
+.idea1 {
+  margin-top: 20%;
+  background-color: rgba(184, 166, 95, 0.3);
+  max-width: 70%;
+  border: rgb(161, 161, 159) 1px dashed;
+  border-top-right-radius: 400px;
+}
+
+iframe {
+  padding-right: 15%;
+  padding-top: 10%;
+  padding-left: 1%;
+  padding-bottom: 3%;
+}
+
+@media screen and (max-width: 2000px) {
+  iframe {
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+  }
+  p {
+    padding-right: 30%;
+    padding-top: 20%;
+    padding-left: 0%;
+    padding-bottom: 3%;
+    max-width: 50%;
+  }
+}
+.idea {
+  margin-top: 18%;
+  background-color: rgba(184, 166, 95, 0.3);
+  max-width: 70%;
+  border: rgb(161, 161, 159) 1px dashed;
+  border-top-right-radius: 400px;
+}
+
+p {
+  padding-right: 15%;
+  padding-top: 10%;
+  padding-left: 0%;
+  padding-bottom: 3%;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.title {
+  max-width: 100%;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 40px;
+}
+.container2 {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin-top: 18%;
+  margin-left: 25%;
+  /* border-top: 5px solid rgba(184, 166, 95, 1); */
+}
+img {
+  max-width: 40%;
+  margin-left: 5%;
+}
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */

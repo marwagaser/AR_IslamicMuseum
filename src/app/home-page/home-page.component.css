@@ -1,11 +1,11 @@
 .homepage {
-  /* background-image: url("IMG_5410.JPG"); */
   background-color: cornsilk;
   height: 100vh; /* full size of the screen */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: auto;
+  background-image: url("IMG_5410.JPG");
 }
 .container {
   display: flex;

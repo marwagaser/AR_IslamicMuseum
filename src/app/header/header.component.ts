@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { NgAnimateScrollService } from "ng-animate-scroll";
 
 @Component({
   selector: "app-header",
@@ -7,7 +8,11 @@ import { Component, OnInit } from "@angular/core";
 })
 export class HeaderComponent implements OnInit {
   imgurl = "../assets/3d.png";
-  constructor() {}
 
+  constructor(private animateScrollService: NgAnimateScrollService) {}
   ngOnInit() {}
+
+  scroll(id: string) {
+    this.animateScrollService.scrollToElement(id, 1000);
+  }
 }
