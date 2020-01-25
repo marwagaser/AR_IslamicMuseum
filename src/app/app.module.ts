@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { HeaderComponent } from './header/header.component';
+import { IdeaPageComponent } from './idea-page/idea-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
+    HomePageComponent,
+    HeaderComponent,
+    IdeaPageComponent
   ],
   imports: [
     BrowserModule

@@ -5,10 +5,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: auto;
 }
 .container {
   display: flex;
   flex-direction: column;
+  height: 1000px;
+  max-width: 100%;
 }
 /* .container1 {
   display: flex;
@@ -19,19 +22,30 @@
   font-family: Brush Script MT, Brush Script Std, cursive;
   margin-top: 20%;
   margin-left: 33%;
+
+  max-width: 50%;
 }
 #slogan {
   font-family: Brush Script MT, Brush Script Std, cursive;
   margin-left: 33%;
+
+  max-width: 50%;
 }
 #collaboration {
-  margin-left: 90%;
-  transform: rotate(-90deg);
+  margin-left: 80%;
   color: black;
   background-color: #ffff76;
   border: solid 2px black;
+  width: fit-content;
+  max-width: 50%;
+  transform: rotate(-90deg);
 }
 #collaboration:hover {
   background-color: #ffff62;
   border: solid 4px black;
 }
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
