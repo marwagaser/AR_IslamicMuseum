@@ -19,7 +19,7 @@ export class HomePageComponent implements OnInit {
   ngOnInit() {
     this.card1Front = "What's it about?";
     this.card1Back =
-      "Islamic history contributes to the history of Egypt, generally. However, compared to the Museum of Egyptian Antiquities, the Islamic artifacts are abstract, and not figurative which makes it hard for tourists to understand the history behind the piece. Therefore, in an attempt to make the knowledge delivery interactive, attract more tourist, and replace the actual tour guide, this Augmented Reality (AR) application was created to act as a tour guide for individual tourists.";
+      "In an attempt to make the knowledge delivery interactive, attract more tourist, and replace the actual tour guide, this Augmented Reality (AR) application was created to act as a tour guide for individual tourists in the Museum of Islamic Arts in Cairo.";
     this.card2Front = "Technology used";
     this.card2Back =
       "Unity and Vuforia were used to develop the application for Android platform";
