@@ -2,7 +2,7 @@
   display: flex;
   /* flex-direction: column; */
   flex-direction: row;
-  background-color: rgba(184, 166, 95, 1);
+  background-color: #5e5a80;
   height: 10vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@
   flex-direction: row;
   list-style-type: none;
   margin: auto;
-  background-color: rgba(184, 166, 95, 1);
+  background-color: #5e5a80;
   max-width: 100%;
   height: inherit;
   overflow: auto;

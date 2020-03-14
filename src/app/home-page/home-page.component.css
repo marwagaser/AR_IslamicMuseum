@@ -1,49 +1,88 @@
 .homepage {
-  background-color: cornsilk;
+  background-color: black;
   height: 100vh; /* full size of the screen */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-position: center; */
+  background-repeat: repeat;
+  /* background-size: cover; */
   overflow: auto;
-  background-image: url("IMG_5410.JPG");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("bg_img.JPG");
 }
 .container {
+  margin-top: 15%;
+  margin-left: 10%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 1000px;
   max-width: 100%;
 }
-/* .container1 {
-  display: flex;
-  flex-direction: row;
-} */
+.card-container {
+  width: 20%;
+  margin-left: 10%;
+  height: 50%;
+  background-color: cornsilk;
+  position: relative;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 40%;
+}
+.card {
+  position: absolute;
+  background-color: #5e5a80;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  border-radius: 40%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card-front {
+  position: absolute;
+  font-family: "zilla slab", sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: cornsilk;
 
-.para {
-  font-family: Brush Script MT, Brush Script Std, cursive;
-  margin-top: 20%;
-  margin-left: 33%;
+  /* above positions only work with the position attr */
+}
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: cornsilk;
+  overflow-y: auto;
+  transform: rotateY(180deg);
+}
+.back-content {
+  font-family: Simplifica;
+  padding: 10%;
+  position: absolute;
+  top: 40px;
+  left: 16px;
+  font-family: "zilla slab", sans-serif;
+}
+.back-content-image {
+  margin-left: 25%;
+  height: 50%;
+  width: 50%;
+  border-radius: 40%;
+  border: 10px cornsilk solid;
+}
+.front-content {
+  position: absolute;
+  top: 190px;
+  left: 50px;
+  font-family: "zilla slab", sans-serif;
+}
 
-  max-width: 50%;
-}
-#slogan {
-  font-family: Brush Script MT, Brush Script Std, cursive;
-  margin-left: 33%;
-
-  max-width: 50%;
-}
-#collaboration {
-  margin-left: 80%;
-  color: black;
-  background-color: #ffff76;
-  border: solid 2px black;
-  width: fit-content;
-  max-width: 50%;
-  transform: rotate(-90deg);
-}
-#collaboration:hover {
-  background-color: #ffff62;
-  border: solid 4px black;
-}
 /* * {
   background: #000 !important;
   color: #0f0 !important;
