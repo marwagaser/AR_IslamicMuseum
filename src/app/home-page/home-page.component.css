@@ -1,9 +1,6 @@
 .homepage {
-  background-color: black;
   height: 100vh; /* full size of the screen */
-  /* background-position: center; */
   background-repeat: repeat;
-  /* background-size: cover; */
   overflow: auto;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.5),
