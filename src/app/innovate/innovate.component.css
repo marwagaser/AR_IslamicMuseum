@@ -1,0 +1,16 @@
+.innovate-background {
+  height: 100vh; /* full size of the screen */
+  background-repeat: repeat;
+  overflow: auto;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("bg_img.JPG");
+  padding: 1%;
+}
+#progress_img {
+  margin-top: 15%;
+  margin-left: 25%;
+  border-radius: 10%;
+}

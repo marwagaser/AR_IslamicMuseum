@@ -6,6 +6,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderComponent } from './header/header.component';
 import { IdeaPageComponent } from './idea-page/idea-page.component';
 import { PhotosPageComponent } from './photos-page/photos-page.component';
+import { InnovateComponent } from './innovate/innovate.component';
+import { CreditsPageComponent } from './credits-page/credits-page.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { PhotosPageComponent } from './photos-page/photos-page.component';
     HomePageComponent,
     HeaderComponent,
     IdeaPageComponent,
-    PhotosPageComponent
+    PhotosPageComponent,
+    InnovateComponent,
+    CreditsPageComponent
   ],
   imports: [
     BrowserModule

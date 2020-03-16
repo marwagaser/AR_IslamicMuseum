@@ -8,10 +8,12 @@
       DEMO
     </li>
     <li class="header_elements" (click)="scroll('photos')">Gallery</li>
-    <li class="header_elements">Innovate</li>
-    <li class="header_elements">Credits</li>
+    <li class="header_elements" (click)="scroll('innovate')">Innovate</li>
+    <li class="header_elements" (click)="scroll('credits')">Credits</li>
   </ul>
 </div>
 <app-home-page id="myHome"></app-home-page>
 <app-idea-page id="myIdea"></app-idea-page>
 <app-photos-page id="photos"> </app-photos-page>
+<app-innovate id="innovate"> </app-innovate>
+<app-credits-page id="credits"> </app-credits-page>
