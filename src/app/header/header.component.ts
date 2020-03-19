@@ -7,7 +7,7 @@ import { NgAnimateScrollService } from "ng-animate-scroll";
   styleUrls: ["./header.component.css"]
 })
 export class HeaderComponent implements OnInit {
-  imgurl = "../assets/3d.png";
+  imgurl = "assets/3d.png";
 
   constructor(private animateScrollService: NgAnimateScrollService) {}
   ngOnInit() {}
