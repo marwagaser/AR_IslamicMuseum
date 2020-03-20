@@ -32,9 +32,7 @@ img {
 .header_elements {
   /* li elements */
   margin: 0;
-  padding-top: 4%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 5%;
   text-align: center;
   color: black;
   font-weight: bold;
@@ -49,18 +47,13 @@ img {
   color: cornsilk;
   border: cornsilk solid thin;
 }
-
+/* 1245 */
 @media screen and (max-width: 1192px) {
-  .header_elements {
-    font-size: 90%;
-    margin: auto;
+  .header {
+    display: none;
   }
   img {
-    display: none;
-  }
-}
-@media screen and (max-height: 491px) {
-  .container {
-    display: none;
+    margin: auto;
+    max-height: 100%;
   }
 }
