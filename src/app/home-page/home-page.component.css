@@ -1,12 +1,12 @@
 .homepage {
   height: 100vh; /* full size of the screen */
   background-repeat: repeat;
-  overflow: auto;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
     url("bg_img.JPG");
+  padding: 0.05%;
 }
 .one-page {
   display: none;
