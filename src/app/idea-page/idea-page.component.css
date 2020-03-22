@@ -11,9 +11,10 @@
 }
 .the-demo-video {
   position: relative;
-  margin-left: 22%;
-  height: 50%;
-  width: 50%;
+  height: 80%;
+  width: 100%;
+  background-color: black;
+  box-sizing: border-box;
   border-radius: 10%;
   border: 50px black solid;
 }
