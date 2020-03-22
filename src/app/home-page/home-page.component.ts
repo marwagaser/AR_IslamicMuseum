@@ -25,6 +25,6 @@ export class HomePageComponent implements OnInit {
       "Unity and Vuforia were used to develop the application for Android platform";
     this.card3Front = "Meet the developer";
     this.card3Back =
-      "Hey! I'm Marwa, a Computer Science and Engineering student at the German University in Cairo. This Augemented Reality application was developed as part of my bachelor thesis work.";
+      "Hey! I'm Marwa, a Computer Science and Engineering student at the German University in Cairo. This Augmented Reality application was developed as part of my bachelor thesis work.";
   }
 }
