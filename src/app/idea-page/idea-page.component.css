@@ -11,13 +11,16 @@
   padding: 1%;
 }
 .the-demo-video {
+  /* margin-top: 9%; */
   position: relative;
   height: 80%;
-  width: 100%;
+  width: 80%;
   background-color: black;
   box-sizing: border-box;
   border-radius: 10%;
   border: 50px black solid;
+  margin: auto;
+  margin-top: 7%;
 }
 iframe {
   position: absolute;
