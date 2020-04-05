@@ -1,13 +1,16 @@
 .homepage {
   height: 100vh; /* full size of the screen */
+  width: 100vw;
   background-repeat: repeat;
+  overflow: auto;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
     url("bg_img.JPG");
-  padding: 0.05%;
+  padding: 1%;
 }
+
 .one-page {
   display: none;
 }
@@ -185,7 +188,6 @@
     position: relative;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     border-radius: 0%;
-    /* border: lime 1px solid; */
     background-color: transparent;
   }
   .card {

@@ -1,5 +1,6 @@
 .gallery-container-background {
   height: 100vh; /* full size of the screen */
+  width: 100vw;
   background-repeat: repeat;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.5),
@@ -7,17 +8,14 @@
     ),
     url("bg_img.JPG");
   padding: 1%;
-  overflow: hidden;
-  overflow-x: auto;
+  overflow: auto;
 }
 .gallery {
   margin-top: 15%;
   margin-left: 25%;
-  max-width: 1000px;
-  max-height: 500px;
-  background-color: rgba(10, 172, 172, 0.616);
+  width: 50vw;
+  height: 50vh;
   overflow: hidden;
-  overflow-x: auto;
   border-radius: 30%;
   border: 10px solid black;
 }
@@ -26,40 +24,62 @@ ul {
   padding: 0;
   margin: 0;
   white-space: nowrap;
+  height: 100%;
+  width: 100%;
 }
+
 .gallery ul li {
   display: inline-block;
   position: relative;
   list-style: none;
   overflow: hidden;
+  background-color: brown;
+  height: 100%;
+  width: 100%;
   animation: img_anim 15s ease-in-out infinite;
+}
+img {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 .gallery ul li h5 {
   position: absolute;
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
-  width: fit-content;
+  width: 100%;
   color: cornsilk;
+  font-family: "zilla slab", sans-serif;
+  font-size: 1vw;
+
+  text-align: center;
   bottom: 0;
-  margin-left: 30%;
-  font-size: 20px;
-  padding: 3%;
 }
-img {
-  width: 1000px;
-  height: 500px;
-}
+
 @keyframes img_anim {
   0%,
   30% {
-    left: 0px;
+    left: 0%;
   }
   31%,
   61% {
-    left: -1000px;
+    left: -100%;
   }
   62%,
   90% {
-    left: -2000px;
+    left: -200%;
+  }
+}
+@media screen and (max-width: 1192px) {
+  .gallery ul li h5 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 10%;
+    color: cornsilk;
+    font-family: "zilla slab", sans-serif;
+    font-size: 1.7vw;
+    text-align: center;
+    bottom: 0;
+    padding: 5%;
   }
 }

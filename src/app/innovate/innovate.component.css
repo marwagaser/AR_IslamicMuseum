@@ -1,5 +1,6 @@
 .innovate-background {
   height: 100vh; /* full size of the screen */
+  width: 100vw;
   background-repeat: repeat;
   overflow: auto;
   background-image: linear-gradient(
@@ -8,10 +9,11 @@
     ),
     url("bg_img.JPG");
   padding: 1%;
+  overflow-x: auto;
 }
 #progress_img {
-  margin-top: 15%;
-  margin-left: 25%;
+  margin-top: 15vh;
+  margin-left: 25vw;
   border-radius: 10%;
 }
 @media screen and (max-width: 1192px) {
@@ -19,5 +21,7 @@
     border-radius: 10%;
     height: 45vh;
     width: 60vw;
+    margin-top: 15vh;
+    margin-left: 25vw;
   }
 }

@@ -1,5 +1,6 @@
 .container {
   height: 100vh;
+  width: 100vw;
   background-repeat: repeat;
   overflow: auto;
   background-image: linear-gradient(
@@ -7,7 +8,7 @@
       rgba(255, 255, 255, 0.5)
     ),
     url("bg_img.JPG");
-  padding: 10%;
+  padding: 1%;
 }
 .the-demo-video {
   position: relative;
